@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ant ID="1">
+    <body>
+        <gene code="T F T F T F MAX MIN">T F T F T F MAX MIN</gene>
+        <expression code="T F 100 200 300 MAX MIN">T F 100 200 300 MAX MIN</expression>
+    </body>
+    <AI>
+        <META serial="Null">Null</META>
+        <ES serial="Null">Null</ES>
+        <KN serial="Null">Null</KN>
+        <NN serial="Null">Null</NN>
+    </AI>
+</ant>

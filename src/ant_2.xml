@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ant ID="2">
+    <body>
+        <reading type="0">
+            <gene code="T">T</gene>
+            <expression code="100">100</expression>
+        </reading>
+        <reading type="2">
+            <gene code="F">F</gene>
+            <expression code="200">200</expression>
+        </reading>
+        <reading type="4">
+            <gene code="T">T</gene>
+            <expression code="Max">Max</expression>
+        </reading>
+    </body>
+    <AI>
+        <META serial="Null">Null</META>
+        <ES serial="Null">Null</ES>
+        <KN serial="Null">Null</KN>
+        <NN serial="Null">Null</NN>
+    </AI>
+</ant>

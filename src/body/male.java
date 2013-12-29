@@ -1,5 +1,5 @@
 
-package shared.body;
+package body;
 
 public abstract class male implements GenerateBody{
     

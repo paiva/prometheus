@@ -1,4 +1,4 @@
-package shared.body;
+package body;
 
 public interface GenerateBody {
     

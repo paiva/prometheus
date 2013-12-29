@@ -1,5 +1,5 @@
 
-package shared.knowledge;
+package knowledge;
 
 public class GenerateKnowlege {
     

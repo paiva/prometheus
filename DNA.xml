@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ant ID="1">
+    <body>
+        <gene>genes</gene>
+        <expression>12</expression>
+        <truevalues>red</truevalues>
+    </body>
+    <AI>
+        <meta>think</meta>
+        <ES>red</ES>
+        <KN>blue</KN>
+        <NN>green</NN>
+    </AI>
+</ant>

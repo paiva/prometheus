@@ -6,39 +6,85 @@
 
 public class body {
  
-    public static move(up, down, left, right, speed){
+
+    /**
+    * 
+    * @param up
+    * @param down
+    * @param left
+    * @param right
+    * @param speed
+    * @return Success/Failure
+    */
+    public static int move(int up, int down, int left, int right, int speed){
             
-        return; 
-    }
-        
-    public static releasePheromone(type){
-        
-        return; 
+        return 0; 
     }
     
-    public static pickUp(strength){
+    /**
+    * 
+    * @param type
+    * @return Success/Failure
+    */
+    public static int releasePheromone(int type){
         
-        return; 
+        return 0; 
     }
     
-    public static eat(){
+    /**
+    * 
+    * @param strength
+    * @return Success/Failure
+    */
+    public static int pickUp(int strength){
         
-        return; 
+        return 0; 
     }
     
-    public static bite(){
+    /**
+    * 
+    * 
+    * @return Success/Failure
+    */
+    public static int eat(){
         
-        return;
+        return 0; 
     }
     
-    public static smell(left, right, front){
+    /**
+    * 
+    *
+    * @return Success/Failure
+    */
+    public static int bite(){
         
-        return ; 
+        return 0;
     }
     
-    public static touch(left, right, front){
+    /**
+    * 
+    * @param left
+    * @param right
+    * @param front
+    * @return Success/Failure
+    */
+    public static int smell(int left, int right, int front){
+        
+        return 0; 
+    }
+ 
     
-        return; 
+    /**
+    * 
+    * @param left
+    * @param right
+    * @param front
+    * @return Success/Failure
+    */
+    public static int touch(int left,int right,int front){
+    
+        return 0; 
     }
-    }
+    
 }
+

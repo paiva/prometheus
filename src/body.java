@@ -6,6 +6,16 @@
 
 public class body {
  
+    // Expression x;
+    
+    // Genes Y; 
+    
+    // AI ai; 
+    
+    // Sensor methods
+    
+    // Actuators methods 
+    
     /**
     * Contains four parameters for direction and one parameter for speed
     * Side Effect: Energy level decreases 

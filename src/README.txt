@@ -9,12 +9,14 @@ Packages description:
     - Body.java
     - Ants Folder containing a collection of specialized ants
 
-2) body package
-    - Shared Body
-    - Specialized Body
+2) Body Package
+    Contains two data structures: 
+    - Shared Body XML (Genes)
+    - Specialized Body XML (Expressions)
 
-3) knowledge package
-    - Shared Knowledge
-    - Specialized Knowledge
+3) Knowledge Package
+    Contains two data structures: 
+    - Shared Knowledge XML (Shared AI)
+    - Specialized Knowledge XML (Individual AI)
 
 

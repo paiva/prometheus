@@ -1,6 +1,6 @@
 /**
  * Body Class in Prometheus Architecture
- * @author Santiago Paiva
+ * 
  * @version 1.0
  */
 

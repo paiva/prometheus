@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {subsection}{\numberline {1.1}Project goals}{1}
+\contentsline {section}{\numberline {2}Background Information}{1}
+\contentsline {subsection}{\numberline {2.1}The Prometheus Brain Model}{1}
+\contentsline {subsection}{\numberline {2.2}Ant morphology}{3}
+\contentsline {subsection}{\numberline {2.3}Types of ants}{3}
+\contentsline {subsection}{\numberline {2.4}Foraging, Pheromones, and External Factors}{4}
+\contentsline {section}{\numberline {3}The AI Database}{4}
+\contentsline {subsection}{\numberline {3.1}Overview}{4}
+\contentsline {subsection}{\numberline {3.2}Design}{5}
+\contentsline {subsection}{\numberline {3.3}Implementation}{6}
+\contentsline {subsection}{\numberline {3.4}DNA Strings}{9}
+\contentsline {subsection}{\numberline {3.5}Gene and Expression Arrays}{11}
+\contentsline {subsection}{\numberline {3.6}Truevals Array}{12}
+\contentsline {section}{\numberline {4}The Smell Module}{14}
+\contentsline {subsection}{\numberline {4.1}Design of a better smell model}{14}
+\contentsline {section}{\numberline {5}Future work}{16}
+\contentsline {section}{\numberline {6}Conclusion}{16}

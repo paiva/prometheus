@@ -1,0 +1,39 @@
+<ant ID = "1">
+<body>
+	<gene code = "TAGS" />
+	<expression code = "ATTRIBUTES" />
+<body>
+<AI>
+	<META>
+		<MODELLER serial = "TAGS" />
+		<MODELLER serial = "TAGS" />
+		  .	.	  .
+		  .	.	  .	
+	</META>
+	<ES>
+		<RULE serial = "RULE #THEN RULE" />
+		<RULE serial = "RULE #THEN RULE" />
+		  .	.		.
+		  .	.		.	
+	</ES>
+	<KN>
+		<NODE serial = "TAGS" />
+		<NODE serial = "TAGS" />
+		  .	.	  .
+		  .	.	  .	
+	</KN>
+	<NN>
+		<PARAMS : inputsize outputsize /> 
+		<OUTPUT: String = " ______ " />
+		<Hidden "______" />
+		  .	   .	  
+		  .	   .	  	  
+	<NN>
+</AI>
+<ant>
+
+----------------------------------------------------------------
+TAG ACT (Activation) THR (Threshold) AGE TAG TAG 
+
+
+

@@ -1,0 +1,76 @@
+\title{ {\bf Prometheus 5 Simulator }}
+\author{
+           \\ Getting started
+	  }
+\date{}
+
+\documentclass[12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{mnsymbol}
+\usepackage{enumerate}
+\setlength{\textwidth}{5.5in}
+\setlength{\textheight}{8in}
+\setlength{\voffset}{-1.1in}
+\newcommand{\h}[1]{\colorbox{yellow}{#1}}
+\newcommand{\problem}{\subsection*}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Oo}{\mathcal{O}}
+
+\begin{document}
+\maketitle
+
+%----------------------------------------------------------------------------------------
+%	CONTENTS
+%----------------------------------------------------------------------------------------
+
+In this section, we will go through the steps of acquiring the source code for the Prometheus application as well as all the dependencies necessary to run the program on your computer. The IDE of choice for our development environment was Netbeans, however it can also be run from a command-line interface or any java compatible IDE of your choice
+
+\section{Acquiring the source code}
+\begin{itemize}
+\item The prometheus source code is stored in an SVN repository located on McGill’s svn.cs.mcgill.ca server. Before the code can be checked out, you must send an email to help@cs.mcgill.ca in order to gain the access permissions for the prometheus repository
+\item {\bf NetBeans} \\
+	\begin{itemize}
+	\item We recommend the NetBeans 7.8 or higer + add the website for download
+	\item Once you have installed NetBeans, import an existing java project by going to File $\rightarrow$ Import $\rightarrow$ SVN $\rightarrow$ Checkout Projects from SVN
+	\item Create a new repository location with the url: {\tt svn+ssh://[SOCS-username]@svn.cs.mcgill.ca/xtra/prometheus/svn/prometheus5/trunk/prometheus} where {\tt SOCS-username} is the username for which you were granted access from the cs help desk
+	\item Follow the import wizard to check out the source code and finish configuring the project for your workspace
+	\end{itemize}
+\item {\bf Command-line}\\
+	\begin{itemize}
+	\item If you do not want to develop with NetBeans, you can check out the code from the repository from the command-line with following command {\tt svn co svn+ssh://[SOCS-username]@svn.cs.mcgill.ca/xtra/prometheus/svn/prometheus5/trunk/prometheus [Destination-Directory]}
+	\item replace {\tt SOCS-username} with you SOCS account username, and Destination-Directory with the name of the root directory to hold the source files
+	\end{itemize}
+
+\end{itemize}
+
+\section{Download Dependencies}
+\begin{itemize}
+\item As described in the report, the Prometheus GUI runs on the jMonkeyEngine library. In order to run the application, you must download a release (currently tested up to 2013-04-15) of the library from http://www.jmonkeyengine.com/nightly/
+\item Unzip the $jME3_[version].zip$ file and move the extracted directory to a safe location in your file system
+\end{itemize}
+
+\section{Compile and Run the Application}
+\begin{itemize}
+\item {\bf NetBeans}
+	\begin{itemize}
+	\item In Eclipse, right click on the Prometheus project in the Package Explorer menu $\rightarrow$  Build Path $\rightarrow$ Add External Archives... Then find the extracted $jME3_[version]$ directory and select the ‘jMonkeyEngine.jar’
+	\item Now select the ‘src/main/java/core/SimulatorInit.java’ file from the package explorer and hit the ``Run" button
+	\end{itemize}
+\item {\bf Command-Line}
+	\begin{itemize}
+	\item Go to the root directory of the Prometheus project that you checked out: ``cd [Prometheus-Directory]"
+	\item Compile with: ‘javac -d bin -cp ``src/main/java/:$[JME_Lib_Location]/jME3_[version]/jMonkeyEngine3.jar$" src/main/java/core/SimulatorInit.java’
+	\item Run with: ‘java -cp "assets/:bin/:$[JME_Lib_Location]/jME3_[version]/jMonkeyEngine3.jar$" core.SimulatorInit’
+	\end{itemize}
+\end{itemize}
+
+\end{document}
